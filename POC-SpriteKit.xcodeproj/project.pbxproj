@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9C956129D237E8005DAFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C956029D237E8005DAFAE /* AppDelegate.swift */; };
+		DD9C956329D237E8005DAFAE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DD9C956229D237E8005DAFAE /* GameScene.sks */; };
+		DD9C956529D237E8005DAFAE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DD9C956429D237E8005DAFAE /* Actions.sks */; };
+		DD9C956729D237E8005DAFAE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C956629D237E8005DAFAE /* GameScene.swift */; };
+		DD9C956929D237E8005DAFAE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C956829D237E8005DAFAE /* GameViewController.swift */; };
+		DD9C956C29D237E8005DAFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9C956A29D237E8005DAFAE /* Main.storyboard */; };
+		DD9C956E29D237E9005DAFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9C956D29D237E9005DAFAE /* Assets.xcassets */; };
+		DD9C957129D237E9005DAFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9C956F29D237E9005DAFAE /* LaunchScreen.storyboard */; };
+		DD9C957B29D237EA005DAFAE /* POC_SpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C957A29D237EA005DAFAE /* POC_SpriteKitTests.swift */; };
+		DD9C958529D237EA005DAFAE /* POC_SpriteKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C958429D237EA005DAFAE /* POC_SpriteKitUITests.swift */; };
+		DD9C958729D237EA005DAFAE /* POC_SpriteKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C958629D237EA005DAFAE /* POC_SpriteKitUITestsLaunchTests.swift */; };
+		DD9C95A129D5C554005DAFAE /* GodofredoImg.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DD9C95A029D5C554005DAFAE /* GodofredoImg.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9C957729D237EA005DAFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9C955529D237E8005DAFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9C955C29D237E8005DAFAE;
+			remoteInfo = "POC-SpriteKit";
+		};
+		DD9C958129D237EA005DAFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9C955529D237E8005DAFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9C955C29D237E8005DAFAE;
+			remoteInfo = "POC-SpriteKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD9C955D29D237E8005DAFAE /* POC-SpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-SpriteKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C956029D237E8005DAFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9C956229D237E8005DAFAE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DD9C956429D237E8005DAFAE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DD9C956629D237E8005DAFAE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DD9C956829D237E8005DAFAE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DD9C956B29D237E8005DAFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9C956D29D237E9005DAFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9C957029D237E9005DAFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9C957629D237EA005DAFAE /* POC-SpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-SpriteKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C957A29D237EA005DAFAE /* POC_SpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SpriteKitTests.swift; sourceTree = "<group>"; };
+		DD9C958029D237EA005DAFAE /* POC-SpriteKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-SpriteKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C958429D237EA005DAFAE /* POC_SpriteKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SpriteKitUITests.swift; sourceTree = "<group>"; };
+		DD9C958629D237EA005DAFAE /* POC_SpriteKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SpriteKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD9C95A029D5C554005DAFAE /* GodofredoImg.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GodofredoImg.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9C955A29D237E8005DAFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C957329D237EA005DAFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C957D29D237EA005DAFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9C955429D237E8005DAFAE = {
+			isa = PBXGroup;
+			children = (
+				DD9C955F29D237E8005DAFAE /* POC-SpriteKit */,
+				DD9C957929D237EA005DAFAE /* POC-SpriteKitTests */,
+				DD9C958329D237EA005DAFAE /* POC-SpriteKitUITests */,
+				DD9C955E29D237E8005DAFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9C955E29D237E8005DAFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C955D29D237E8005DAFAE /* POC-SpriteKit.app */,
+				DD9C957629D237EA005DAFAE /* POC-SpriteKitTests.xctest */,
+				DD9C958029D237EA005DAFAE /* POC-SpriteKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9C955F29D237E8005DAFAE /* POC-SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C956029D237E8005DAFAE /* AppDelegate.swift */,
+				DD9C956229D237E8005DAFAE /* GameScene.sks */,
+				DD9C956429D237E8005DAFAE /* Actions.sks */,
+				DD9C956629D237E8005DAFAE /* GameScene.swift */,
+				DD9C956829D237E8005DAFAE /* GameViewController.swift */,
+				DD9C956A29D237E8005DAFAE /* Main.storyboard */,
+				DD9C956D29D237E9005DAFAE /* Assets.xcassets */,
+				DD9C95A029D5C554005DAFAE /* GodofredoImg.atlas */,
+				DD9C956F29D237E9005DAFAE /* LaunchScreen.storyboard */,
+			);
+			path = "POC-SpriteKit";
+			sourceTree = "<group>";
+		};
+		DD9C957929D237EA005DAFAE /* POC-SpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C957A29D237EA005DAFAE /* POC_SpriteKitTests.swift */,
+			);
+			path = "POC-SpriteKitTests";
+			sourceTree = "<group>";
+		};
+		DD9C958329D237EA005DAFAE /* POC-SpriteKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C958429D237EA005DAFAE /* POC_SpriteKitUITests.swift */,
+				DD9C958629D237EA005DAFAE /* POC_SpriteKitUITestsLaunchTests.swift */,
+			);
+			path = "POC-SpriteKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9C955C29D237E8005DAFAE /* POC-SpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C958A29D237EA005DAFAE /* Build configuration list for PBXNativeTarget "POC-SpriteKit" */;
+			buildPhases = (
+				DD9C955929D237E8005DAFAE /* Sources */,
+				DD9C955A29D237E8005DAFAE /* Frameworks */,
+				DD9C955B29D237E8005DAFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-SpriteKit";
+			productName = "POC-SpriteKit";
+			productReference = DD9C955D29D237E8005DAFAE /* POC-SpriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9C957529D237EA005DAFAE /* POC-SpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C958D29D237EA005DAFAE /* Build configuration list for PBXNativeTarget "POC-SpriteKitTests" */;
+			buildPhases = (
+				DD9C957229D237EA005DAFAE /* Sources */,
+				DD9C957329D237EA005DAFAE /* Frameworks */,
+				DD9C957429D237EA005DAFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9C957829D237EA005DAFAE /* PBXTargetDependency */,
+			);
+			name = "POC-SpriteKitTests";
+			productName = "POC-SpriteKitTests";
+			productReference = DD9C957629D237EA005DAFAE /* POC-SpriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9C957F29D237EA005DAFAE /* POC-SpriteKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C959029D237EA005DAFAE /* Build configuration list for PBXNativeTarget "POC-SpriteKitUITests" */;
+			buildPhases = (
+				DD9C957C29D237EA005DAFAE /* Sources */,
+				DD9C957D29D237EA005DAFAE /* Frameworks */,
+				DD9C957E29D237EA005DAFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9C958229D237EA005DAFAE /* PBXTargetDependency */,
+			);
+			name = "POC-SpriteKitUITests";
+			productName = "POC-SpriteKitUITests";
+			productReference = DD9C958029D237EA005DAFAE /* POC-SpriteKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9C955529D237E8005DAFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DD9C955C29D237E8005DAFAE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					DD9C957529D237EA005DAFAE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DD9C955C29D237E8005DAFAE;
+					};
+					DD9C957F29D237EA005DAFAE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DD9C955C29D237E8005DAFAE;
+					};
+				};
+			};
+			buildConfigurationList = DD9C955829D237E8005DAFAE /* Build configuration list for PBXProject "POC-SpriteKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9C955429D237E8005DAFAE;
+			productRefGroup = DD9C955E29D237E8005DAFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9C955C29D237E8005DAFAE /* POC-SpriteKit */,
+				DD9C957529D237EA005DAFAE /* POC-SpriteKitTests */,
+				DD9C957F29D237EA005DAFAE /* POC-SpriteKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9C955B29D237E8005DAFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C956C29D237E8005DAFAE /* Main.storyboard in Resources */,
+				DD9C956329D237E8005DAFAE /* GameScene.sks in Resources */,
+				DD9C956E29D237E9005DAFAE /* Assets.xcassets in Resources */,
+				DD9C957129D237E9005DAFAE /* LaunchScreen.storyboard in Resources */,
+				DD9C956529D237E8005DAFAE /* Actions.sks in Resources */,
+				DD9C95A129D5C554005DAFAE /* GodofredoImg.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C957429D237EA005DAFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C957E29D237EA005DAFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9C955929D237E8005DAFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C956729D237E8005DAFAE /* GameScene.swift in Sources */,
+				DD9C956929D237E8005DAFAE /* GameViewController.swift in Sources */,
+				DD9C956129D237E8005DAFAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C957229D237EA005DAFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C957B29D237EA005DAFAE /* POC_SpriteKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C957C29D237EA005DAFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C958529D237EA005DAFAE /* POC_SpriteKitUITests.swift in Sources */,
+				DD9C958729D237EA005DAFAE /* POC_SpriteKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9C957829D237EA005DAFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9C955C29D237E8005DAFAE /* POC-SpriteKit */;
+			targetProxy = DD9C957729D237EA005DAFAE /* PBXContainerItemProxy */;
+		};
+		DD9C958229D237EA005DAFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9C955C29D237E8005DAFAE /* POC-SpriteKit */;
+			targetProxy = DD9C958129D237EA005DAFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD9C956A29D237E8005DAFAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C956B29D237E8005DAFAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9C956F29D237E9005DAFAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C957029D237E9005DAFAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9C958829D237EA005DAFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9C958929D237EA005DAFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9C958B29D237EA005DAFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D837DJ3YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ciceronascimento.POC-SpriteKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD9C958C29D237EA005DAFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D837DJ3YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ciceronascimento.POC-SpriteKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD9C958E29D237EA005DAFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D837DJ3YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ciceronascimento.POC-SpriteKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-SpriteKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-SpriteKit";
+			};
+			name = Debug;
+		};
+		DD9C958F29D237EA005DAFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D837DJ3YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ciceronascimento.POC-SpriteKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-SpriteKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-SpriteKit";
+			};
+			name = Release;
+		};
+		DD9C959129D237EA005DAFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D837DJ3YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ciceronascimento.POC-SpriteKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-SpriteKit";
+			};
+			name = Debug;
+		};
+		DD9C959229D237EA005DAFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D837DJ3YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ciceronascimento.POC-SpriteKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-SpriteKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9C955829D237E8005DAFAE /* Build configuration list for PBXProject "POC-SpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C958829D237EA005DAFAE /* Debug */,
+				DD9C958929D237EA005DAFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C958A29D237EA005DAFAE /* Build configuration list for PBXNativeTarget "POC-SpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C958B29D237EA005DAFAE /* Debug */,
+				DD9C958C29D237EA005DAFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C958D29D237EA005DAFAE /* Build configuration list for PBXNativeTarget "POC-SpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C958E29D237EA005DAFAE /* Debug */,
+				DD9C958F29D237EA005DAFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C959029D237EA005DAFAE /* Build configuration list for PBXNativeTarget "POC-SpriteKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C959129D237EA005DAFAE /* Debug */,
+				DD9C959229D237EA005DAFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9C955529D237E8005DAFAE /* Project object */;
+}
